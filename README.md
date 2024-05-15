@@ -13,18 +13,18 @@
 
 ### Các Bước Thực Hiện
 1. **Thu Thập Dữ Liệu Dân Số**
-    - Sử dụng API từ World Bank hoặc các nguồn uy tín khác để thu thập dữ liệu dân số của các quốc gia trên thế giới.
+    - Lấy dữ liệu từ API dân số của uy tín
 
 2. **Xử Lý Dữ Liệu**
-    - Sử dụng FastAPI để xây dựng một API backend xử lý và lưu trữ dữ liệu dân số.
-    - Sử dụng Node-RED để xây dựng các luồng dữ liệu tự động, kết nối và xử lý dữ liệu từ API đến cơ sở dữ liệu.
+    - Sử dụng FastAPI để xây dựng một API lấy , xử lý và trả về dữ liệu
+    - Sử dụng Node-RED lấy dữ liệu từ  api của fastAPI , sau đó lưu vào cơ sở dữ liệu.
 
 3. **Lưu Trữ Dữ Liệu**
-    - Sử dụng cơ sở dữ liệu (như PostgreSQL, MongoDB, hoặc SQLite) để lưu trữ dữ liệu dân số.
+    - Sử dụng cơ sở dữ liệu MSSQL để lưu trữ dữ liệu dân số.
     - Đảm bảo dữ liệu được cập nhật thường xuyên và có thể truy xuất nhanh chóng.
 
 4. **Xây Dựng Trang Web**
-    - Sử dụng các công nghệ front-end (HTML, CSS, JavaScript, React.js) để xây dựng giao diện người dùng.
+    - Sử dụng các công nghệ front-end (HTML, CSS, JavaScript, api.aspx) để xây dựng giao diện người dùng.
     - Hiển thị top 5 quốc gia có dân số cao nhất.
     - Tạo biểu đồ tương tác thể hiện quá trình tăng giảm dân số của các quốc gia qua các năm.
 
@@ -34,7 +34,8 @@
 - **Database**: MSSQL
 - **Frontend**: HTML, CSS, JavaScript, api.aspx
 
-
+### Sơ đồ hoạt động
+![Tên thay thế](đường_dẫn_đến_ảnh)
 ### Ghi Chú
 - Đảm bảo rằng bạn đã cấu hình đúng API key và URL của các dịch vụ API bạn sử dụng.
 - Thường xuyên kiểm tra và cập nhật dữ liệu để đảm bảo tính chính xác và kịp thời.
