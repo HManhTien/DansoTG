@@ -21,7 +21,7 @@
 
 3. **Lưu Trữ Dữ Liệu**
     - Sử dụng cơ sở dữ liệu MSSQL để lưu trữ dữ liệu dân số.
-    - Đảm bảo dữ liệu được cập nhật thường xuyên và có thể truy xuất nhanh chóng.
+    - data bao gồm : 1 bảng dan_so : có cột id , tenquocgia , soluong , thoigian ,ghichu 
 
 4. **Xây Dựng Trang Web**
     - Sử dụng các công nghệ front-end (HTML, CSS, JavaScript ,google chart) để xây dựng giao diện người dùng.
