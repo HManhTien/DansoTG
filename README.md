@@ -35,7 +35,7 @@
 - **Frontend**: HTML, CSS, JavaScript, api.aspx
 
 ### Sơ đồ hoạt động
-![Tên thay thế](đường_dẫn_đến_ảnh)
+![Tên thay thế](https://github.com/HManhTien/DansoTG/blob/master/DansoTG/sodo/sodohoatdong.png)
 ### Ghi Chú
 - Đảm bảo rằng bạn đã cấu hình đúng API key và URL của các dịch vụ API bạn sử dụng.
 - Thường xuyên kiểm tra và cập nhật dữ liệu để đảm bảo tính chính xác và kịp thời.
