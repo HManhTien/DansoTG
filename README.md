@@ -24,7 +24,7 @@
     - Đảm bảo dữ liệu được cập nhật thường xuyên và có thể truy xuất nhanh chóng.
 
 4. **Xây Dựng Trang Web**
-    - Sử dụng các công nghệ front-end (HTML, CSS, JavaScript) để xây dựng giao diện người dùng.
+    - Sử dụng các công nghệ front-end (HTML, CSS, JavaScript ,google chart) để xây dựng giao diện người dùng.
     - Hiển thị top 5 quốc gia có dân số cao nhất.
     - Tạo biểu đồ tương tác thể hiện quá trình tăng giảm dân số của các quốc gia qua các năm.
 
