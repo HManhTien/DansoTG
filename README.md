@@ -41,5 +41,5 @@
 - Thường xuyên kiểm tra và cập nhật dữ liệu để đảm bảo tính chính xác và kịp thời.
 
 ### Liên Hệ
-- Email: k05480106025@tnut.edu.vn
+- Email: k205480106025@tnut.edu.vn
 - GitHub: [https://github.com/hmanhtien](https://github.com/hmanhtien)
