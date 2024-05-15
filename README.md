@@ -7,9 +7,9 @@
 
 ## Nội Dung
 ### Mục Tiêu
-- Lấy dữ liệu dân số thế giới từ API uy tín.
-- Xử lý dữ liệu sử dụng FastAPI và Node-RED, sau đó lưu vào cơ sở dữ liệu.
-- Xây dựng trang web hiển thị top 5 nước có dân số cao nhất và tạo biểu đồ thể hiện quá trình tăng giảm dân số.
+- Xây dựng trang web hiển thị top 5 nước có dân số cao nhất 
+- tạo biểu đồ thể hiện quá trình tăng giảm dân số.
+- Tạo giao diện dễ nhìn dễ thao tác
 
 ### Các Bước Thực Hiện
 1. **Thu Thập Dữ Liệu Dân Số**
