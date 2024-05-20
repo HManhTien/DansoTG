@@ -1,0 +1,89 @@
+[
+    {
+        "id": "caeb89ba45b414c7",
+        "type": "MSSQL",
+        "z": "4a685adb299fb3c7",
+        "mssqlCN": "e4b6202edc82a8e2",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "SP_DANSO @action ='THEM_DU_LIEU', @quocgia = @quocgia , @danso = @danso , @nam = @nam",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "payload",
+        "queryOptType": "editor",
+        "paramsOpt": "",
+        "paramsOptType": "editor",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": true,
+        "params": [
+            {
+                "output": false,
+                "name": "quocgia",
+                "type": "NVarChar(50)",
+                "valueType": "msg",
+                "value": "payload.country",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "danso",
+                "type": "NVarChar(50)",
+                "valueType": "msg",
+                "value": "payload.population",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "nam",
+                "type": "NVarChar(50)",
+                "valueType": "msg",
+                "value": "payload.year",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            }
+        ],
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "2d6846eafaadc9b9"
+            ]
+        ]
+    },
+    {
+        "id": "e4b6202edc82a8e2",
+        "type": "MSSQL-CN",
+        "tdsVersion": "7_4",
+        "name": "MyDatabase",
+        "server": "127.0.0.1",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "DansoTG",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
+    }
+]
