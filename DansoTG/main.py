@@ -6,8 +6,6 @@ from fastapi import FastAPI
 
 
 app = FastAPI()
-
-# Danh sách mã quốc gia của World Bank
 countries = {
     "World": "1W",
     "Vietnam": "VN",
@@ -16,20 +14,12 @@ countries = {
     "Japan": "JP",
     "UK": "GB"
 }
-
-# URL API của World Bank để lấy dữ liệu dân số (SP.POP.TOTL)
 url_template = 'http://api.worldbank.org/v2/country/{}/indicator/SP.POP.TOTL?format=json&date={}'
-
-# Hàm để lấy dữ liệu dân số
 @app.get("/")
 def get_population_data():
     # Kết quả lưu trữ dữ liệu dân số
     population_data = {}
-
-    # Lấy năm hiện tại
     current_year = datetime.now().year
-
-    # Lấy dữ liệu dân số cho từng quốc gia/khu vực trong 10 năm gần đây
     for country_name, country_code in countries.items():
         population_data[country_name] = {}
         for year in range(current_year - 10, current_year):
